@@ -9,7 +9,7 @@ Useful if you have a console access to a machine and need to take files offline 
 
 - Build the project using `dotnet publish`, specifying the target runtime that you need.  E.g `dotnet publish -r win-x64` for Windows or `-r linux-x64` for Linux.
 
-    > If your server doesn't already have the ASP.NET runtime installed, just package it with your build using `--self-contained true`.
+> If your server doesn't already have the ASP.NET runtime installed, just package it with your build using `--self-contained true`.
 
 - Copy the `publish` folder to your server.
 
@@ -50,7 +50,7 @@ To use HTTPS, define the endpoint, the certificate path, and certificate passwor
 }
 ```
 
-    > Note that when HTTPS is enabled, the HTTP endpoint will automatically redirect to it.
+> Note that when HTTPS is enabled, the HTTP endpoint will automatically redirect to it.
 
 Then, simply run the `pwnlift` binary.
 
